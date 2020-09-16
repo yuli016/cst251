@@ -1,36 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style>
 	<title>Lab 5: More HTML</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	* {
-	  box-sizing: border-box;
-	}
-
-	.row {
-	  display: flex;
-	}
-	.column {
-	  flex: 33.33%;
-	  padding: 5px;
-	}
-
-	figure {
-  border: 1px #c88937 solid;
-  padding: 4px;
-  margin: auto;
-}
-
-figcaption {
-  background-color: #c88937;
-  color: #c88937;
-  font-style: italic;
-  padding: 2px;
-  text-align: center;
-}
-	</style>
 </head>
 <body style="background-color:#fae8d6">
 
@@ -46,60 +19,35 @@ figcaption {
 		<p style="color:#c88937;">While working on my Lab 5 file I didn’t have much issue writing
 			the codes for the headers,paragraphs, inserting my images, or adding links to
 			my favorite websites.  The only issue I had while working on my lab 5 was
-			trying to organize my images to be side by side since I wanted to put more
-			cat pictures because it was hard to choose only two so I added six.  I went
-			to w3schools for help to see how to put them side by side. I added my picture
-			using row and column to put 3 pictures on the top and the other 3 at the bottom
-			to make the images bigger instead of having all six in one row.  At the top of
-			the I added a style under head and copied and pasted the codes from w3schools
-			and adjusted some of the codes like the color of the box color to match my
-			color palette and to have my captions at the bottom to be aligned in the center.
-			I did a local test and everything was working the 6 cat pictures were showing,
-			the captions were in the center and the box was in the correct color.</p>
+			the picture because I put more some were showing up testing local but I went back to my
+			files to rename the ones not working to something simple and changed the img code to the
+			new name and did a local test again.  The local was now working perfectly and I
+			tested everything the links and clicking on my pixel art to open to a new tab and
+			returning back to my home page.</p>
 
 <h3 style="color:#c88937;">Results</h3>
 	<p style="color:#c88937;">As you can see in my Lab 5 file you can see my 6 cat
-		pictures are working organized and with captions in the center at the bottom
-		of each picture.  I have all my paragraphs explaining each section and I have
-		working links to my favorite websites I enjoy most using in my free time.  I
-		have my “Back To Home Page” link at the bottom working to take you back to my
-		home page and uploaded to the severs.</p>
+		pictures and with captions at the bottom of each picture.  I have all my paragraphs
+		explaining each section and I have working links to my favorite websites I enjoy
+		most using in my free time.  I have my “Back To Home Page” link at the bottom
+		working to take you back to my home page and uploaded to the severs.</p>
 
 <h2 style="color:#c88937;">My Adorable Cat Pictures</h2>
+	<figure>
+		<img src="img/kittens.jpg" alt="two kittens" style="width:50%">
+			<figcaption style="color:#c88937;">Kittens</figcaption>
+		<img src="img/orange.jpg" alt="Picture of Orange Tabby Cat" style="width:50%">
+			<figcaption style="color:#c88937;">Orange Kitten</figcaption>
+		<img src="img/cattree.jpg" alt="Cats on a Cat Tree" style="width:50%">
+			<figcaption style="color:#c88937;"> Kittens On Cat Tree</figcaption>
+		<img src="img/cats.jpg" alt="Two Cats" style="width:50%">
+			<figcaption style="color:#c88937;">Chi & Black Kitten</figcaption>
+		<img src="img/chi.jpg" alt="Chi Sleeping" style="width:50%"><br>
+			<figcaption style="color:#c88937;">Chi Sleeping</figcaption>
+		<img src="img/kirby.jpg" alt="Kirby Playing" style="width:50%"><br>
+			<figcaption style="color:#c88937;">Kirby Playing With String</figcaption>
+	</figure>
 
-	<div class="row">
-		<div class="column">
-			<figure>
-				<img src="img/kittens.jpg" alt="two kittens" style="width:100%">
-					<figcaption style="color:#fae8d6;">Kittens</figcaption>
-		</div>
-		<div class="column">
-				<img src="img/orange.jpg" alt="Picture of Orange Tabby Cat" style="width:100%">
-					<figcaption style="color:#fae8d6;">Orange Kitten</figcaption>
-		</div>
-		<div class="column">
-				<img src="img/cattree.jpg" alt="Cats on a Cat Tree" style="width:100%">
-					<figcaption style="color:#fae8d6;"> Kittens On Cat Tree</figcaption>
-			</figure>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="column">
-			<figure>
-					<img src="img/cats.jpg" alt="Two Cats" style="width:100%">
-						<figcaption style="color:#fae8d6;">Chi & Black Kitten</figcaption>
-		</div>
-		<div class="column">
-					<img src="img/chi.jpg" alt="Chi Sleeping" style="width:100%">
-						<figcaption style="color:#fae8d6;">Chi Sleeping</figcation>
-		</div>
-		<div class="column">
-					<img src="img/kirby.jpg" alt="Kirby Playing" style="width:100%">
-						<figcaption style="color:#fae8d6;">Kirby Playing With String</figcaption>
-			</figure>
-		</div>
-	</div>
 <h4 style="color:#c88937;">Some Of My Favorite Websites & Shows on Youtube</h4>
 <nav>
 	<ol>
@@ -119,13 +67,13 @@ figcaption {
 
 <h5 style="color:#c88937;">My Screenshots Progress</h5>
 	<img src="img/lab5codes.jpg" style="width:700px">
-		<figcaption style="color:#fae8d6;">Lab 5 Codes</figcaption>
+		<figcaption style="color:#c88937;">Lab 5 Codes</figcaption>
 	<img src="img/browser.jpg" style="width:1000px">
-		<figcaption style="color:#fae8d6;">Lab 5 On Local Browser</figcaption>
+		<figcaption style="color:#c88937;">Lab 5 On Local Browser</figcaption>
 	<img src="img/github.jpg" style="width:700px">
-		<figcaption style="color:#fae8d6;">Github Changes</figcaption>
+		<figcaption style="color:#c88937;">Github Changes</figcaption>
 	<img src="img/severs.jpg" style="width:1000px">
-		<figcaption style="color:#fae8d6;">Lab 5 On Sever Browser</figcaption>
+		<figcaption style="color:#c88937;">Lab 5 On Sever Browser</figcaption>
 
 	<nav class="assignments major-section">
 		<ul>
