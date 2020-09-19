@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: darkgray;
+    background-color: #ffffe6;
     padding: 30px;
     font-size: 90%;
 }
@@ -9,7 +9,7 @@ div#content {
     padding: 30px;
     background-color: mintcream;
     border: solid 1px #333333;
-    height: 75vh;
+    height: 80vh;
 }
 
 h1, h2, h3 {
@@ -24,7 +24,7 @@ img {
 
 a {
     text-decoration: none;
-    color: maroon;
+    color:#7e4720;
 }
 a:hover {
     text-decoration: underline;
