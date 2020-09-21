@@ -1,0 +1,49 @@
+body {
+    font-family: "Galada", monospace;
+    background-color: #b3ffff;
+    padding: 70px;
+    font-size: 100%;
+}
+
+div#content {
+    padding: 50px;
+    background-color: #faebd7;
+    border: dashed #e38d1c;
+	color: #006666;
+	border-radius: 50px;
+    height: auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Galada", monospace;
+	font-weight: 900;
+}
+
+img#cat {
+    float: right;
+    width: 350px;
+    height: auto;
+	border: outset 15px #e38d1c;
+}
+
+figcaption#center {
+	text-decoration: none;
+	color: #006666;
+	font-weight: 900;
+}
+
+img#screenshot {
+	width: 800px;
+	height: auto;
+	border: inset 15px #e38d1c;
+	border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:#f28f0d;
+	font-weight: 20px;
+}
+a:hover {
+    text-decoration: underline overline dotted #b3ffff;
+}
