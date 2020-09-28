@@ -6,12 +6,12 @@ body {
 }
 
 div#content {
-    padding: 50px;
-    background-color: #faebd7;
-    border: dashed #e38d1c;
+  padding: 50px;
+  background-color: #faebd7;
+  border: dashed #e38d1c;
 	color: #006666;
 	border-radius: 50px;
-    height: auto;
+  height: auto;
 }
 
 h1, h2, h3, h4 {
@@ -20,9 +20,9 @@ h1, h2, h3, h4 {
 }
 
 img#cat {
-    float: right;
-    width: 350px;
-    height: auto;
+  float: right;
+  width: 350px;
+  height: auto;
 	border: outset 15px #e38d1c;
 }
 
@@ -40,8 +40,8 @@ img#screenshot {
 }
 
 a {
-    text-decoration: none;
-    color:#f28f0d;
+  text-decoration: none;
+  color:#f28f0d;
 	font-weight: 20px;
 }
 a:hover {

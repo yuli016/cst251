@@ -1,0 +1,88 @@
+body {
+    font-family: "Charcoal";
+    font-size: 30px;
+    background-color: #f1f3ff;
+    padding: 50px;
+    font-size: 100%;
+}
+
+div#style {
+  padding: 50px;
+  font-size: 25px;
+  background-color: #989cb3;
+  border: ridge 10px #a8b3a1;
+	color: #e9ffd9;
+	border-radius: 20px;
+  height: auto;
+}
+
+div#style figure.box, h5, h1 {
+  background-color: #ffe3d9;
+  color: #a8b3a1;
+  text-indent: 45px;
+  border-radius: 30px;
+  font-size: 50px;
+}
+
+h2, h3, h4, a {
+  font-family: "Georgia", serif;
+  color: #f1f3ff;
+  font-style: bold;
+  font-size: 40px;
+}
+
+div>figcaption {
+	text-decoration: underline;
+	color: #f1f3ff;
+  font-style: italic;
+  font-weight: bolder;
+  font-size:  25px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+div.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.zoom:hover{
+  transform: scale(1.1);
+}
+
+img#plant {
+  float: right;
+  padding: 8px;
+  background-color: #e9ffd9;
+  border-radius: 30px;
+  height: 15%;
+  width: 15%;
+  margin: 55px;
+}
+
+img#screenshot {
+	width: 100%;
+	height: auto;
+}
+
+figure.box {
+  padding: 50px;
+  background-color: #989cb3;
+  border: solid 20px #e9ffd9;
+  border-radius: 50px;
+  height: auto;
+  width:auto;
+}
+
+a {
+  text-decoration: underline;
+    color:#ffe3d9;
+}
+
+a:hover {
+    text-decoration: underline #f1f3ff;
+    color: #e9ffd9;
+}
