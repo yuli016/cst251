@@ -1,9 +1,10 @@
 body {
-    font-family: "Charcoal";
-    font-size: 30px;
-    background-color: #f1f3ff;
-    padding: 50px;
-    font-size: 100%;
+  font-family: 'Roboto Mono', monospace;
+  @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&family=Roboto+Mono&display=swap');
+  font-size: 30px;
+  background-color: #f1f3ff;
+  padding: 50px;
+  font-size: 100%;
 }
 
 div#style {
@@ -16,28 +17,38 @@ div#style {
   height: auto;
 }
 
-div#style figure.box, h5, h1 {
-  background-color: #ffe3d9;
-  color: #a8b3a1;
-  text-indent: 45px;
-  border-radius: 30px;
-  font-size: 50px;
+h1,h2,h3,h4,h5 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-size: 36px;
+  font style: bolder;
+  color: orange;
+  font-style: oblique;
+  margin-left: 40px;
+  font-family: 'Quattrocento', serif, monospace, sans-serif;
 }
 
-h2, h3, h4, a {
-  font-family: "Georgia", serif;
-  color: #f1f3ff;
-  font-style: bold;
-  font-size: 40px;
+div>h1,h5 {
+  border: double 15px white;
+  background-color: #a8b3a1;
+  padding: 7px;
+  color: #ffe3d9;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 30px 40px 30px 40px;
 }
 
 div>figcaption {
 	text-decoration: underline;
-	color: #f1f3ff;
   font-style: italic;
-  font-weight: bolder;
-  font-size:  25px;
   text-align: center;
+  font-size: 30px;
+  margin: 1px 0 20px 0;
+  font-style: bold;
+  border-radius: 10px;
+  padding: 8px;
+  color: #f1f3ff;
 }
 
 .row {
@@ -58,28 +69,53 @@ img#plant {
   padding: 8px;
   background-color: #e9ffd9;
   border-radius: 30px;
-  height: 15%;
-  width: 15%;
-  margin: 55px;
+  height: auto;
+  width: 22%;
+  margin: 40px;
 }
 
-img#screenshot {
+img {
 	width: 100%;
 	height: auto;
 }
 
-figure.box {
+div.box {
   padding: 50px;
   background-color: #989cb3;
-  border: solid 20px #e9ffd9;
+  border: dashed 8px #e9ffd9;
   border-radius: 50px;
   height: auto;
   width:auto;
 }
 
+.border {
+  background-color: #9c8cab;
+  width: 65%;
+  height: auto;
+  margin: 40px;
+  border-radius: 10px;
+  border: dashed 5px #eee4f7;
+}
+
+p {
+  font-size: 100%;
+  margin: 40px;
+  font-weight: bold;
+  line-height: 115%;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+
 a {
-  text-decoration: underline;
-    color:#ffe3d9;
+  color: #cbf7db;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #9c8cab;
+  border-radius: 7px;
+  padding: 8px;
+  margin: 40px;
+  border: outset 5px  #f7e6cb;
+  text-decoration: none;
 }
 
 a:hover {

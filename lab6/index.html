@@ -2,45 +2,53 @@
 <html>
 <head>
 	<title>Lab 6: More Complicated HTML</title>
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
-	<div id="content">
-			<h1>Lab 6: More Complicated HTML</h1>
-			<img id="cat" src="img/kirby.jpg">
-			<p>In this lab 6 to learn more complicated HTML codes
-				to demonstrate how to use to create forms and show results in google search
-				and linking index.css to organize how pictures and text to a certain style
-				and having a a back to homepage button and upload the files to the severs
-				after checking everything is working properly local.</p>
-			<h2>Challenges</h2>
-			<p>While working on lab 6 adding the image was easy,
-				writing the paragraphs about the process, and linking to go back to the
-				homepage was easy.  The new challenging thing was creating the form and
-				to submit and check if it was working property.  I looked back at the
-				powerpoint talking about how to create a form and used the link in Slack
-				to see how the forum is created and looked closely and wrote the code to
-				practice instead of copying and pasting.  Changed up some of the questions
-				and wrote about favorite seasons, write about your shows in textarea, passwords,
-				name, and color with the text to be that color to
-				color code them. Linked the index.css to lab 6 and messed with some of the setting
-				to fix my text from leaving the box by making the box bigger, making the text size
-				smaller, and adjusting the size of my picture on the right.</p>
-			<h3>Results</h3>
-			<p>As you can see in my lab 6 I have all my writing
-				explaining my about the lab, results and challenges and a picture of a cat
-				on the right side in a box.  At the bottom is my form using a lot of differnt types to click and you can take and
-				submit a button to get results from google working properly.  All of my
-				screenshots at the bottom showing my process and link to the homepage all
-				uploaded in my Github account server.</p>
-			<p><a href="../index.html">Back To Home Page</a>
-
-		<form action="https://www.google.com/search" method="GET" target="_blank">
+	<div id="style">
+		<div class="image-style">
+		<img id="cat" src="img/kirby.jpg">
+		</div>
+		<div id="border">
+		<h1>Lab 6: More Complicated HTML</h1>
+		<p>In this lab 6 to learn more complicated HTML codes
+		to demonstrate how to use to create forms and show results in google search
+		and linking index.css to organize how pictures and text to a certain style
+		and having a a back to homepage button and upload the files to the severs
+		after checking everything is working properly local.</p>
+		</div>
+		<div id="border">
+		<h2>Challenges</h2>
+		<p>While working on lab 6 adding the image was easy,
+		writing the paragraphs about the process, and linking to go back to the
+		homepage was easy.  The new challenging thing was creating the form and
+		to submit and check if it was working property.  I looked back at the
+		powerpoint talking about how to create a form and used the link in Slack
+		to see how the forum is created and looked closely and wrote the code to
+		practice instead of copying and pasting.  Changed up some of the questions
+		and wrote about favorite seasons, write about your shows in textarea, passwords,
+		name, and color with the text to be that color to
+		color code them. Linked the index.css to lab 6 and messed with some of the setting
+		to fix my text from leaving the box by making the box bigger, making the text size
+		smaller, and adjusting the size of my picture on the right.</p>
+		</div>
+		<div id="border">
+		<h3>Results</h3>
+		<p>As you can see in my lab 6 I have all my writing explaining my about the
+		lab, results and challenges and a picture of a cat on the right side in a box.
+		At the bottom is my form using a lot of differnt types to click and you can
+		take and submit a button to get results from google working properly.  All of
+		my screenshots at the bottom showing my process and link to the homepage all
+		uploaded in my Github account server.</p>
+		</div><br>
+		<a class="buttonlink" href="../index.html">Back To Home Page</a><br>
+		<div id="margin">
+			<form action="https://www.google.com/search" method="GET" target="_blank">
 			Write About Your Favorite Show: <br>
-	 		<textarea name="write-about-your-favorite-story"></textarea><br>
+			<textarea name="write-about-your-favorite-story"></textarea><br>
 	 		Write Your Name:<br>
 	 		<input type="input" name="q"/><br>
-				Email password:<br>
+			Email password:<br>
 			<input type="password" name="email-password"/><br>
 	 		<label><input type="checkbox" name="living"/>
 		 		Are you a human?</label><br>
@@ -66,17 +74,27 @@
 				<option vaule="spr">Spring</option>
 			</select><br>
 			<input type="submit" value="Search">
-		</form>
+			</form>
+		</div>
   </div>
 
-<img id="screenshot" src="img/browser.jpg">
-	<figcaption id="center">Lab 6 HTML File On My Browser</figcaption>
-<img id="screenshot" src="img/lab6codes.jpg">
-	<figcaption id="center">Lab 6 HTML Codes</figcaption>
-<img id="screenshot" src="img/local.jpg">
-	<figcaption id="center">Lab 6 Working On Local</figcaption>
-<img id="screenshot" src="img/lab6sever.jpg">
-	<figcaption id="center">Lab 6 On Severs</figcaption>
+	<div id="box">
+	<h5>Screenshots</h5>
+		<div class="row">
+			<div class="column">
+				<img src="img/browser.jpg">
+				<figcaption id="design">Lab 6 HTML File On My Browser</figcaption>
+				<img src="img/lab6codes.jpg">
+				<figcaption id="design">Lab 6 HTML Codes</figcaption>
+			</div>
+			<div class="column">
+				<img src="img/local.jpg">
+				<figcaption id="design">Lab 6 Working On Local</figcaption>
+				<img src="img/lab6sever.jpg">
+				<figcaption id="design">Lab 6 On Severs</figcaption>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>

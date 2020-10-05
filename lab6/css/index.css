@@ -6,22 +6,24 @@ body {
 }
 
 div#content {
-    padding: 50px;
-    background-color: mintcream;
-    border: solid 5px #7e4720;
-    height: auto;
+  padding: 50px;
+  background-color: mintcream;
+  border: solid 5px #7e4720;
+  height: auto;
 	color: #7e4720;
+  margin:30px;
 }
 
-h1, h2, h3 {
-    font-family: "Courier New", monospace;
+h1,h2,h3 {
+  font-family: "Courier New", monospace;
 }
 
 img#cat {
-    float: right;
-    width: 400px;
-    height: auto;
-	border: solid 5px #7e4720
+  float: right;
+  width: 400px;
+  height: auto;
+	border: solid 5px #7e4720;
+  margin: 30px;
 }
 
 figcaption#center {
@@ -35,10 +37,10 @@ img#screenshot {
 	height: auto;
 	border: inset 5px #7e4720;
 	border-radius: 10px;
-	
+
 a {
-    text-decoration: none;
-    color:#7e4720;
+  text-decoration: none;
+  color:#7e4720;
 }
 a:hover {
     text-decoration: underline;

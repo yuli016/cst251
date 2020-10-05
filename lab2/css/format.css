@@ -1,5 +1,5 @@
 body {
-  background-color: #98bee0;
+  background-color: #b57860;
   font-size: 80%;
   font-family: 'Roboto Mono', monospace;
   @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&family=Roboto+Mono&display=swap');
@@ -10,39 +10,40 @@ div#style {
   border-radius: 20px;
   margin: 50px;
   padding: 5px 15px 60px 30px;
-  color: #9596ed;
-  background-color: #9cb5f7;
+  color: #53c271;
+  background-color: #36241c;
 }
 
-p {
+#paragraph {
   font-size: 140%;
   margin: 40px;
   font-weight: bold;
   line-height: 115%;
   word-spacing: 5px;
   letter-spacing: 2px;
+  color: #f5a282;
 }
 
 #border {
-  background-color: #9ce5f7;
+  background-color: #754e3e;
   width: 95%;
   height: auto;
   margin: 40px;
   border-radius: 10px;
-  border: dashed 5px #98bee0;
+  border: dashed 5px #eee4f7;
 }
 
 div#box {
-  background-color: #9596ed;
+  background-color: #36241c;
   color: #70361b;
   border: dashed 10px #eee4f7;
   margin: 40px;
   padding: 5px 25px 10px 30px;
 }
 
-h1,h2,h3,h4 {
+#header {
   border: groove 15px white;
-  background-color: #98bee0;
+  background-color: #db9174;
   padding: 7px;
   font-size: 50px;
   text-align: center;
@@ -59,10 +60,10 @@ h1,h2,h3,h4 {
 }
 
 a.buttonlink {
-  color: #36241c;
+  color: #cbf7db;
   font-size: 15px;
   font-weight: bolder;
-  background-color: #98bee0;
+  background-color: #754e3e;
   border-radius: 7px;
   padding: 8px;
   margin: 150px 0px 60px 5px;
@@ -90,6 +91,5 @@ div.column {
   font-style: bold;
   border-radius: 10px;
   padding: 8px;
-  font-family: 'Roboto Mono', monospace;
-  color: #95ede8;
+  color: #cbf7db;
 }

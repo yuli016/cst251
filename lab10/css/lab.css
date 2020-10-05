@@ -1,0 +1,111 @@
+body {
+  background-color: #d6ccde;
+  margin: 30px;
+  padding: 30px;
+  font-size: 80%;
+  font-family: 'Roboto Mono', monospace;
+  @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&family=Roboto+Mono&display=swap');
+}
+
+.image-style {
+  float: right;
+  margin: 0 5px 50px 5px;
+  width: 30%;
+  height: auto;
+  border: inset 5px #f7e6cb;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 100%;
+  margin: 40px;
+  font-weight: bold;
+  line-height: 115%;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+
+}
+
+div#style {
+  background-color: #95ab9d;
+  color: #f7e6cb;
+  border: dotted 10px #cbf7db;
+  border-radius: 20px;
+  margin: 20px 20px 10px 5px;
+  padding: 5px 15px 60px 30px;
+}
+
+.border {
+  background-color: #9c8cab;
+  width: 65%;
+  height: auto;
+  margin: 40px;
+  border-radius: 10px;
+  border: dashed 5px #eee4f7;
+}
+
+div#box {
+  background-color: #9c8cab;
+  color: #70361b;
+  border: double 8px #eee4f7;
+  margin: 10px;
+  padding: 5px 25px 10px 30px;
+}
+
+h1,h2,h3,h4,h5 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font style: bolder;
+  color: #cbf7db;
+  font-style: oblique;
+  margin-left: 40px;
+  font-family: 'Quattrocento', serif, monospace, sans-serif;
+}
+
+div>h1,h5 {
+  border: double 15px #cbf7db;
+  background-color: #d6ccde;
+  padding: 7px;
+  color: #95ab9d;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 30px 5px 30px 5px;
+}
+
+a {
+  color: #cbf7db;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #9c8cab;
+  border-radius: 7px;
+  padding: 8px;
+  margin: 150px 0px 60px 40px;
+  border: outset 5px  #f7e6cb;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: solid 5px #f7e6cb;
+}
+
+.row {
+  display: flex;
+}
+
+div.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+figcaption#design {
+  text-align: center;
+  font-size: 30px;
+  margin: 1px 0 20px 0;
+  font-style: bold;
+  border-radius: 10px;
+  padding: 8px;
+  color: #cbf7db;
+}
