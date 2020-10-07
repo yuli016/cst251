@@ -17,13 +17,16 @@ nav#links {
 
 aside#sidebar {
   background-color: #be9063;
-  position: relative;
-  padding: 9px;
+  position: absolute;
+  padding: 15px;
   border: solid 5px mintcream;
   float: right;
   height: auto;
-  min-width: 310px;
+  min-width: 300px;
   display: inline-block;
+  width: 30%;
+  top: 230px;
+  right: 50px;
 }
 
 main#content {
@@ -32,13 +35,18 @@ main#content {
   border-radius: 20px;
   margin: 20px 20px 10px 5px;
   padding: 5px 15px 60px 30px;
+  width: 50%;
+  height: auto;
 }
 
 .image-style {
-  float: right;
-  margin: 40px 5px 50px 5px;
   border: inset 5px #be9063;
   border-radius: 5px;
+  min-width: 300px;
+  display: inline-block;
+  margin: 0px 10px 50px 10px;
+  width: 95%;
+  height: auto;
 }
 
 p {
@@ -52,11 +60,15 @@ p {
 
 }
 
+#center {
+  text-align: center;
+}
+
 .border {
   background-color: #a4978e;
-  width: 50%;
+  width: 95%;
   height: auto;
-  margin: 50px 5px 50px 10px;
+  margin: 50px 10px 50px 10px;
   border-radius: 10px;
   border: dashed 5px mintcream;
 }
@@ -66,7 +78,7 @@ div#box {
   color: #70361b;
   border: double 8px mintcream;
   margin: 10px;
-  padding: 5px 25px 10px 30px;
+  padding: 60px 25px 10px 30px;
 }
 
 h1,h2,h3,h4,h5 {
@@ -103,24 +115,17 @@ a {
   text-decoration: none;
 }
 
-img {
-  width: 100%;
+#screenshot {
   height: auto;
   border: solid 2px #525b56;
   margin: 10px;
+  width: 100%;
+  height: auto;
+  min-width: 300px;
 }
 
 .row {
   display: flex;
-}
-
-div.line {
-  float: right;
-  min-width: 300px;
-  display: inline-block;
-  margin: 50px 10px 0 10px;
-  width: 33.33%;
-  height: auto;
 }
 
 div.column {
