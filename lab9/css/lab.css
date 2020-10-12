@@ -43,10 +43,6 @@ div#style {
   border: solid 5px #f2a683;
 }
 
-#zoom:hover{
-  transform: scale(0.5);
-}
-
 div#box {
   background-color: #704d3d;
   color: #70361b;
