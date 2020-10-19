@@ -1,0 +1,163 @@
+body, #container {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  z-index: -100;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Secular One', sans-serif;
+  color: white;
+  background-color: #bfbfba;
+}
+
+#campfire {
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -50;
+}
+
+#campfire img {
+  max-width: 100%;
+  height: 100vh;
+  width: auto;
+  margin: 0px;
+}
+
+#title {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 88;
+}
+
+#title .center {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  font-size: 16.2vw;
+  letter-spacing: 10vw;
+  margin-top: 6vh;
+  text-transform: uppercase;
+  color: white;
+  z-index: 89;
+}
+
+span {
+  visibility: hidden;
+}
+
+#logo {
+  max-width: 100%;
+  height: auto;
+  width: 27.6vw;
+  margin-top: 8.3vh;
+  margin-left: 23.5vw;
+  z-index: 90;
+}
+
+#link-box {
+  position: absolute;
+  margin-top: 0px;
+  padding: 15px 55px 15px 55px;
+  top: 0;
+  right: 10vw;
+  background-color: #18181A;
+}
+
+#link-box a {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .75rem;
+  color: #C48F6E;
+}
+
+#info-box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 9;
+  margin-right: 27.4vw;
+  margin-bottom: 12vh;
+}
+
+#info-box p {
+  color: white;
+  text-align: right;
+  font-family: 'Secular One', sans-serif;
+  font-size: 1.1vw;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#date {
+  position: absolute;
+  right: 26vw;
+  top: 11vh;
+  width: 10vw;
+}
+
+p#date {
+  text-transform: uppercase;
+  color: white;
+  text-align: right;
+  font-size: 1.2vw;
+}
+
+#icons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20.5vw;
+  margin-bottom: 3.5vh;
+  text-align: right;
+  height: 44vh;
+  weight: auto;
+}
+
+img#icons {
+  height: 40vh;
+  weight: auto;
+  z-index: 101;
+}
+
+#people-box {
+  position: absolute;
+  text-align: right;
+  bottom: 0;
+  right: 0;
+  z-index: 8;
+}
+
+#people-box img {
+  margin-right: 21vw;
+  margin-bottom: 20vh;
+  max-height: 100%;
+  height: 47vh;
+  width: auto;
+}
+
+#canyon {
+  position: absolute;
+  text-align: right;
+  bottom: 0;
+  right: 0;
+  z-index: 7;
+}
+
+#canyon .size {
+  max-height: 100%;
+  height: 33.5vh;
+  max-width: 100%
+  width: 50.3vw;
+  margin-right: 0vw;
+  margin-bottom: -1vh;
+}

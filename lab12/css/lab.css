@@ -4,7 +4,6 @@ body {
   padding: 30px;
   font-size: 80%;
   font-family: 'Roboto Mono', monospace;
-  @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&family=Roboto+Mono&display=swap');
 }
 
 nav#links {
