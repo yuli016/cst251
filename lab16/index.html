@@ -1,10 +1,91 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 16: Fancy CSS 2</title>
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&family=Roboto+Mono&display=swap');>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
+	<nav id="links">
+	<a href="../index.html">Home Page</a>
+	<a href="../lab16/css/lab.css" target=_"Codes">CSS Codes</a>
+	</nav><br>
+	<main id="content">
+	<h1>Lab 16: Fancy CSS 2</h1>
+		<div class="border">
+		<p>In this lab 16 I'm learing more CSS codes like how to make an image be a background,
+		different effects for elements using transitions, making animations for elements,
+		and making columns for text.</p>
+		</div>
+		<div class="border">
+		<h2>Challenges</h2>
+		<p>This lab was a bit hard to do but the only easy things were how to make the
+		text into columns and how to make the image as a background.  The transition
+		was difficult to do since I didn't know what kinds of things I could do so I looked
+		for examples to give me some ideas.  I saw the rotating transition and thought about
+		making a star rotate by adjusting the rotating degrees to be more while it was hovered
+		over it.  The animation wasn't too hard I created a div for it so that it will
+		only move inside of it.  And using the w3schools I used the example of a square
+		going around clockwise and copied the codes and adjusted the animation keyframes for
+		the left and top and retested over and over until it was perfect. Other website
+		examples were great for reference and jsfiddle perfect for test them.</p>
+		</div>
+		<div class="border">
+		<h3>Problems</h3>
+		<p>The one I had the most problem was the transtion to make the text slowy
+		go down without it to just appear at it's location because I wanted it to slowly
+		move down. I was struggling until I figure it out when I was looking on the internet
+		for examples I saw one kind of what I wanted but it was going horizontal instead
+		of vertical.  I copied the codes and changed the (5,0) to (0,5) to only make it move
+		verical and adjusted some of how much I wanted it to go down, and the transition speed.
+		After saving and loading the page again it was working great and adjust more of the
+		height to move more down to be hidden.</p>
+		</div>
+		<div class="border">
+		<h4>Results</h4>
+		<p>As you can see in my Lab 16 when you go to the section where there is a pixel
+		background.  It has all of my learned skills I used transition to make the star
+	 	at the top right corner spin 1800 degrees when you hover over it and when you are
+		not hovering over it does a backward 1800 degree to be in it's orginal position.
+		I made the text be into 3 columns and I added a transition transform: translate(0, 43em)
+		going at a linear speed while it slowly floated down and when it reaches the bottom
+		of the pixel background the text is hidden like in a videogame screen or a movie
+		and quickly goes back up. Finally the animation I added was a kirby images that
+		goes clockwise around the pixel background infinite. I really enjoyed doing
+		this lab learning especially transitions and animations and it's complicated but fun.</p>
+		</div>
+	</main><br>
+
+	<div id="kirby-background">
+		<div id="animation">
+			<img id="kirby" src="img/star.png">
+		</div>
+		<img id="small-star" src="img/warp-star.png">
+		<div id="text-box">
+			<p class="column-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+			elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+			ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+			in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+			sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+			mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing
+			elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+	</div>
+
+		<div id="box">
+		<h5>Screenshots</h5>
+			<div class="row">
+				<div class="column">
+				<img id="screenshot" src="img/lab16codes.jpg">
+					<figcaption id="design">Lab 16 CSS & HTML Codes</figcaption><br>
+				</div>
+				<div class="column">
+				<img id="screenshot" src="img/lab16local.jpg">
+					<figcaption id="design">Lab 16 Working Locally</figcaption><br>
+				</div>
+			</div>
+		</div>
 
 </body>
 </html>
