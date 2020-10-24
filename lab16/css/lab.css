@@ -13,7 +13,7 @@ nav#links {
   padding: 50px;
   font-size: 20px;
   background-color: #ff8282;
-  width: 89vw;
+  width: 84vw;
 }
 
 main#content {
@@ -21,8 +21,8 @@ main#content {
   border: double 10px mintcream;
   border-radius: 20px;
   margin: 20px 20px 10px 5px;
-  padding: 5px 15px 60px 30px;
-  width: 90vw;
+  padding: 5px 30px 60px 30px;
+  width: 84vw;
   height: auto;
 }
 
@@ -38,7 +38,7 @@ p {
 
 .border {
   background-color: #a92c3c;
-  width: 87vw;
+  width: 82vw;
   height: auto;
   margin: 50px 10px 50px 10px;
   border-radius: 10px;
@@ -51,7 +51,8 @@ div#box {
   border: double 8px #a92c3c;
   margin: 150px 10px 10px 10px;
   padding: 60px 25px 10px 30px;
-  width: 90vw;
+  width: 84vw;
+  height: auto;
 }
 
 h1,h2,h3,h4,h5 {
@@ -78,7 +79,7 @@ main>h1,h5 {
 
 a {
   color: #faff75;
-  font-size: 15px;
+  font-size: 1.8vw;
   font-weight: bolder;
   background-color: #f29bcb;
   border-radius: 7px;
@@ -120,9 +121,8 @@ p.column-text {
 }
 
 p.column-text:hover {
-  transform: translate(0, 51em);
-  transition: all 15s;
-
+  transform: translate(0, 90rem);
+  transition: all 25s;
 }
 
 div#kirby-background {
