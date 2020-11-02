@@ -2,7 +2,6 @@ body {
   margin: 30px;
   padding: 30px;
   font-size: 80%;
-  z-index: -100;
   font-family: 'Roboto Mono', monospace;
   background-image: linear-gradient(to bottom right, #faccc7, #e47575);
 }
@@ -13,7 +12,6 @@ nav#links {
   padding: 50px;
   font-size: 20px;
   background-color: #ff8282;
-  width: 84vw;
 }
 
 main#content {
@@ -22,7 +20,7 @@ main#content {
   border-radius: 20px;
   margin: 20px 20px 10px 5px;
   padding: 5px 30px 60px 30px;
-  width: 84vw;
+  width: 95%;
   height: auto;
 }
 
@@ -38,7 +36,7 @@ p {
 
 .border {
   background-color: #a92c3c;
-  width: 82vw;
+  width: 95%;
   height: auto;
   margin: 50px 10px 50px 10px;
   border-radius: 10px;
@@ -51,8 +49,6 @@ div#box {
   border: double 8px #a92c3c;
   margin: 150px 10px 10px 10px;
   padding: 60px 25px 10px 30px;
-  width: 84vw;
-  height: auto;
 }
 
 h1,h2,h3,h4,h5 {
@@ -121,8 +117,8 @@ p.column-text {
 }
 
 p.column-text:hover {
-  transform: translate(0, 90rem);
-  transition: all 25s;
+  transform: translate(0, 85rem);
+  transition: all 35s;
 }
 
 div#kirby-background {
