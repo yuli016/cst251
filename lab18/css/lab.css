@@ -1,0 +1,145 @@
+body {
+  background-color: #ebc6af;
+  font-size: 70%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.topbox {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+header {
+  border: #402f31 solid 2px;
+  margin-right: 20px;
+  width: 79%;
+  height: auto;
+  background-color: #eddecb;
+}
+
+header h1 {
+  color: #cf7d51;
+  margin: 20px;
+  font-size: 2em;
+}
+
+header p {
+  margin: 20px;
+  font-size: 1.2em;
+  color: #261817;
+}
+
+nav {
+  width: 22%;
+  border: #394267 solid 2px;
+  height: auto;
+  background-color: #d9b6a9;
+}
+
+nav a {
+  width: 80%;
+  color: #592c12;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 2px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+figcaption {
+  margin: 5px;
+  font-size: 1.1em;
+  text-align: center;
+  color: mintcream;
+}
+
+footer {
+  border: #394267 solid 2px;
+  width: 100%;
+  background-color: #dadad9;
+}
+
+footer p{
+  margin: 20px;
+  color: #592c12;
+}
+
+section {
+  border: #394267 solid 1px;
+  background-color: #402f31;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  border: 5px dashed #d9b6a9;
+}
+
+section p {
+  margin: 20px;
+  font-size: 1.1em;
+  color: #f2e0d0;
+  word-spacing: 0.5em;
+  line-height: 130%;
+}
+
+h3 {
+  color: #261817;
+  margin: 20px;
+  font-size: 1.4em;
+}
+
+h2 {
+  margin: 20px;
+  color: #f2c9bb;
+  font-size: 1.4em;
+}
+
+.work-img {
+  max-width: 100%;
+  height: auto;
+  float: left;
+  flex: 25%;
+  background-color: #261817;
+}
+
+.work-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fall-img {
+  float: right;
+  max-width: 100%;
+  flex: 35%;
+  height: auto;
+  background-color: #e18d62;
+}
+
+.fall-img img {
+  max-width: 98%;
+  height: auto;
+  margin: 3px;
+}
+
+.main {
+  max-width: 100%;
+  flex: 40%;
+  float: left;
+  margin: 10px;
+}
+
+.centerbox {
+  max-width: 100%;
+  height: auto;
+  background-color: #f2e0d0;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 600px) {
+  .centerbox {
+    flex-direction: column;
+  }
+}
