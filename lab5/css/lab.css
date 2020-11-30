@@ -8,10 +8,10 @@ body {
 div#style {
   border: dashed 10px white;
   border-radius: 20px;
-  margin: 50px;
-  padding: 5px 15px 60px 30px;
+  margin: 30px;
+  padding: 15px;
   color: #f58cb9;
-  background-color: #a87054;
+  background-color: #ffd1cc;
 }
 
 p {
@@ -28,40 +28,44 @@ p {
   height: auto;
   margin: 40px;
   border-radius: 10px;
-  border: dashed 5px #ffd1cc;
+  border: dashed 5px #a87054;
 }
 
 div#box {
   background-color: white;
   color: #70361b;
   border: dashed 10px #f58cb9;
-  margin: 40px;
-  padding: 5px 25px 10px 30px;
+  margin: 30px;
+  padding: 25px;
 }
 
 h1,h2,h3,h4,h5 {
-  border: groove 15px white;
-  background-color: #f58cb9;
-  padding: 7px;
-  font-size: 50px;
-  text-align: center;
-  margin: 40px;
-  border-radius: 25px;
   text-transform: uppercase;
   font-size: 36px;
   font style: bolder;
-  color: #f5eda4;
+  color: #a87054;
   font-style: oblique;
+  margin-left: 30px;
+  margin-right: 10px;
   font-family: 'Quattrocento', serif, monospace, sans-serif;
-  word-spacing: 5px;
-  letter-spacing: 3px;
+}
+
+div>h1 {
+  border: double 15px #a87054;
+  background-color: #f58cb9;
+  padding: 7px;
+  color: #f5eda4;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 30px;
 }
 
 a.buttonlink {
-  color: #f58cb9;
+  color: #f5eda4;
   font-size: 15px;
   font-weight: bolder;
-  background-color: #f5eda4;
+  background-color: #f58cb9;
   border-radius: 7px;
   padding: 8px;
   margin: 150px 0px 60px 5px;
