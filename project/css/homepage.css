@@ -1,5 +1,5 @@
 body {
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
   margin: 0;
   background-color: #f2f2f2;
@@ -8,7 +8,6 @@ body {
 
 p {
   font-family: 'Poppins', sans-serif;
-  margin: 2vh 2vw 2vh 2vw;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -29,13 +28,20 @@ h3 {
 h2 {
   font-size: 3vw;
   color: #404040;
-  margin: 2vh 2vw 2vh 2vw;
 }
 
 #center-box p {
   font-family: 'Poppins', sans-serif;
   font-size: 1.5vw;
   color: black;
+}
+
+@media (max-width: 600px) {
+  #image-slideshow {
+    width: 100%;
+    margin: 0px;
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 600px) {
@@ -60,8 +66,7 @@ a {
 
 /*Slideshow*/
 #image-slideshow {
-  overflow-x: hidden
-  width: 100vw;
+  overflow: hidden;
 }
 
 #image-slideshow figure {
@@ -155,17 +160,6 @@ figcaption {
     flex-direction: column;
     width: 100%;
   }
-}
-
-/*Experimating*/
-.flex-grid {
-  display: flex;
-  justify-content: center;
-}
-
-.image-box-grid {
-  width: 300px;
-  height: 300px;
 }
 
 
