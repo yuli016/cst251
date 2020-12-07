@@ -1,7 +1,7 @@
 body {
   width: 100%;
   margin: 0;
-  background-color: #ececec;
+  background-color: #f2f2f2;
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins&display=swap');
 }
 
@@ -15,8 +15,14 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
   padding: 5vh 0vw 5vh 0vw;
-  font-size: 5.2vw;
+  font-size: 6vw;
   text-align: center;
+  color: #8d3f3f;
+}
+
+#color {
+  color: #404040;
+  font-size: 6vw;
 }
 
 h3 {
@@ -25,13 +31,13 @@ h3 {
 
 h2 {
   font-size: 3vw;
-  color: #c1a57b;
+  color: #404040;
 }
 
 #center-box p {
   font-family: 'Poppins', sans-serif;
   font-size: 1.5vw;
-  color: #222831;
+  color: black;
 }
 
 @media (max-width: 600px) {
@@ -41,7 +47,11 @@ h2 {
 }
 
 hr {
-  border-top: 2px solid pink;
+  border-top: 2px solid #8d3f3f;
+}
+
+a {
+  color: #404040;
 }
 
 #center-box {
@@ -85,7 +95,7 @@ hr {
 span {
   font-family: 'Playfair Display', serif;
   font-size: 2.5vw;
-  color: #c1a57b;
+  color: #8d3f3f;
 }
 
 .row::after {

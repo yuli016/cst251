@@ -1,5 +1,5 @@
 footer {
-  background-color: #30475e;
+  background-color: #404040;
   width: 100%;
   color: white;
   padding: 2vh 10vw 2vh 10vw;
@@ -8,6 +8,14 @@ footer {
 footer a {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  color: pink;
+  color: #f2dbbc;
   text-align: center;
+}
+
+a:hover {
+  color: #8d3f3f;
+}
+
+.color-change {
+  border: ##8d3f3f 2px solid;
 }
