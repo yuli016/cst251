@@ -1,0 +1,13 @@
+footer {
+  background-color: #30475e;
+  width: 100%;
+  color: white;
+  padding: 2vh 10vw 2vh 10vw;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: pink;
+  text-align: center;
+}

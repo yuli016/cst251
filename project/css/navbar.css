@@ -1,0 +1,33 @@
+ul.topnav {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 2vh 10vw 2vh 10vw;
+  margin-bottom: -3vh;
+  overflow: hidden;
+  background-color: #222831;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: #ececec;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #c1a57b;
+  color: #30475e;
+}
+
+ul.topnav li a.active {
+  color: #c1a57b;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+}
