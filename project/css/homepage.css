@@ -8,6 +8,7 @@ body {
 
 p {
   font-family: 'Poppins', sans-serif;
+  margin: 2vh 2vw 2vh 2vw;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -28,6 +29,7 @@ h3 {
 h2 {
   font-size: 3vw;
   color: #404040;
+  margin: 2vh 2vw 2vh 2vw;
 }
 
 #center-box p {
@@ -58,7 +60,8 @@ a {
 
 /*Slideshow*/
 #image-slideshow {
-  overflow: hidden;
+  overflow-x: hidden
+  width: 100vw;
 }
 
 #image-slideshow figure {
