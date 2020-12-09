@@ -1,12 +1,11 @@
 ul.topnav {
-  width: 100%;
+  width: 100vw;
   list-style-type: none;
   margin: 0;
   padding: 2vh 10vw 2vh 10vw;
   margin-bottom: -3vh;
   overflow: hidden;
   background-color: #404040;
-  z-index: 5;
 }
 
 ul.topnav li {
@@ -15,7 +14,7 @@ ul.topnav li {
 
 ul.topnav li a {
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
