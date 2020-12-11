@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Example</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Movies/Shows Articles</title><!--Change the Title to whatever it's called-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/slideshow.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/basic-structure.css">
-    <link rel="stylesheet" href="css/homepage.css">
-    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/slideshow.css">
     <link rel="stylesheet" href="css/side-articles.css">
-  </head>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins&display=swap" rel="stylesheet">
+    <!--Add any css files after this don't mess with anything above just the title name that way
+    if you mess up the problem is in your css file or something wrong within the div id center-box-->
+
+</head>
   <body>
-    <h1>Website Name</h1>
+    <h1>Movie/Show Articles</h1>
     <hr/>
     <ul class="topnav">
       <li><a class="active" href="./homepage.html">Home</a></li>
@@ -36,37 +37,17 @@
 
     <div id="slideshow">
       <figure>
-        <img src="https://www.rspcapetinsurance.org.au/getattachment/2aaafb4f-5e51-4358-b122-2c6108721fb6/what-should-feed-cat.aspx">
-        <img src="https://dqix3oiq93d76.cloudfront.net/assets/product_images/zpc_og_article_recognizing-cats-normal.jpg">
-        <img src="https://static.scientificamerican.com/sciam/cache/file/F1E90F3D-1FFD-4BA9-9DFA98AE647FA7D4_source.jpg">
-        <img src="https://cdn.cnn.com/cnnnext/dam/assets/200713171600-02-silk-road-cats-super-tease.jpg">
-        <img src="https://www.rspcapetinsurance.org.au/getattachment/2aaafb4f-5e51-4358-b122-2c6108721fb6/what-should-feed-cat.aspx">
+        <img src="https://www.rspcapetinsurance.org.au/getattachment/2aaafb4f-5e51-4358-b122-2c6108721fb6/what-should-feed-cat.aspx"><!--Change Image This Image and the Last needs to be the same-->
+        <img src="https://dqix3oiq93d76.cloudfront.net/assets/product_images/zpc_og_article_recognizing-cats-normal.jpg"><!--Change Image-->
+        <img src="https://static.scientificamerican.com/sciam/cache/file/F1E90F3D-1FFD-4BA9-9DFA98AE647FA7D4_source.jpg"><!--Change Image-->
+        <img src="https://cdn.cnn.com/cnnnext/dam/assets/200713171600-02-silk-road-cats-super-tease.jpg"><!--Change Image-->
+        <img src="https://www.rspcapetinsurance.org.au/getattachment/2aaafb4f-5e51-4358-b122-2c6108721fb6/what-should-feed-cat.aspx"><!--Change Image to be the same as the first one-->
       </figure>
     </div><br>
 
-    <div id="center-box">
+    <div id="center-box"><!--Things with in the Center Box-->
       <div class="content-box">
         <div class="flex-column-left">
-          <h2>Content</h2>
-          <p>I have completed the layouts for the homepage/other articles layout you will be using.
-          I made it easy for you to do your work since you are only writing and collecting images
-          and other things you are going to put for the other section but all the images for
-          the slidesshow, articles and in the grids should be horizontal and the same
-          in height it would be more easier for me.  You basically have to change the src
-          source by instering your image that you saved and put into the img folder.
-          For the articles you basically have to change the link to the website by copying and pasting in two
-          location so the image and title of the articles links opens a new tab.  For writing the article name
-          just delete the text and write it also for the author and date is was written in your section.<br><br>
-
-          Which color background you want for the articles yellow, grey, or white.
-          If grey is choosen then the text will be white.  Just to let you know if you
-          hover over the article image for grey and white it won't zoom in only for the
-          yellow background becasue I change the code but doesn't matter it's an easy fix
-          when you all agree on the color background it will have the same fuction.<br><br>
-
-          The things this homepage needs is articles and images of content for grid and slideshow.
-          Also on the footer write something short that's not too long.</p>
-          <hr/>
           <div class="content-grid">
             <figure class="content-image-container">
               <img class="text" src="https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg">
@@ -111,7 +92,7 @@
               <figcaption>content</figcaption>
             </figure>
           </div><br>
-        </div><!-- Flex Left End Div-->
+        </div><!-- Flex Column Left End Div-->
 
         <div class="flex-column-right">
           <h2 class="center">Articles</h2>
@@ -119,11 +100,11 @@
             <div class="card">
               <div class="image-article-container">
               <a href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release"
-                 target="_Bee And Puppycat"> <img src="img/season2.jpg"></a>
+                 target="_Bee And Puppycat"> <img src="img/season2.jpg"></a><!--remove the link within the quotes and paste article link & add the article image-->
                  <div class="container">
                    <a class="article-title" href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release"
-                      target="_Bee And Puppycat">Cult-favorite cartoon Bee and Puppycat finds a home at Netflix for season 2</a><br>
-                   <div class="article-author">By Petrana Radulovic @Pet_rana Oct 6, 2020</div>
+                      target="_Bee And Puppycat">Cult-favorite cartoon Bee and Puppycat finds a home at Netflix for season 2</a><br><!--paste the article link again & write article name-->
+                   <div class="article-author">By Petrana Radulovic @Pet_rana Oct 6, 2020, 2:00pm EDT</div><!--write the article author date and time-->
                   </div>
               </div>
             </div>
@@ -131,13 +112,13 @@
 
           <div class="column-articles">
             <div class="card">
-              <div class="grey" class="image-article-container">
+              <div class="image-article-container">
               <a href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release"
-                 target="_Bee And Puppycat"> <img src="img/season2.jpg"></a>
+                 target="_Bee And Puppycat"> <img src="img/season2.jpg"></a><!--remove the link within the quotes and paste article link & add the article image-->
                  <div class="container">
                    <a class="article-title" href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release"
-                    target="_Bee And Puppycat"><span>Cult-favorite cartoon Bee and Puppycat finds a home at Netflix for season 2</span></a><br>
-                   <div class="article-author">By Petrana Radulovic @Pet_rana Oct 6, 2020</div>
+                      target="_Bee And Puppycat">Cult-favorite cartoon Bee and Puppycat finds a home at Netflix for season 2</a><br><!--paste the article link again & write article name-->
+                   <div class="article-author">By Petrana Radulovic @Pet_rana Oct 6, 2020, 2:00pm EDT</div><!--write the article author date and time-->
                   </div>
               </div>
             </div>
@@ -145,23 +126,23 @@
 
           <div class="column-articles">
             <div class="card">
-              <div class="white" class="image-article-container">
+              <div class="image-article-container">
               <a href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release"
-                 target="_Bee And Puppycat"> <img src="img/season2.jpg"></a>
+                 target="_Bee And Puppycat"> <img src="img/season2.jpg"></a><!--remove the link within the quotes and paste article link & add the article image-->
                  <div class="container">
                    <a class="article-title" href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release"
-                      target="_Bee And Puppycat">Cult-favorite cartoon Bee and Puppycat finds a home at Netflix for season 2</a><br>
-                   <div class="article-author">By Petrana Radulovic @Pet_rana Oct 6, 2020</div>
+                      target="_Bee And Puppycat">Cult-favorite cartoon Bee and Puppycat finds a home at Netflix for season 2</a><br><!--paste the article link again & write article name-->
+                   <div class="article-author">By Petrana Radulovic @Pet_rana Oct 6, 2020, 2:00pm EDT</div><!--write the article author date and time-->
                   </div>
               </div>
             </div>
           </div>
 
-        </div><!--Flex Right End Div-->
-      </div><!--Content Box End Div-->
+        </div><!--Flex Column Right End Div-->
+      </div><!--content-Box End Div-->
     </div><!--The Center Box End Div-->
 
-
+    <!--Don't mess with footer-->
     <footer class="page-footer font-small blue pt-4">
       <div class="container-fluid text-center text-md-left">
         <div class="row"> <!-- Grid row -->
@@ -170,17 +151,16 @@
             <hr class="color-change"/>
             <ul class="list-unstyled">
               <li>
-                <a href="./videogames">Video Games</a>
+                <a href="./videogames.html">Video Games</a>
               </li>
               <li>
-                <a href="./art">Art</a>
+                <a href="./movies-shows.html">Movies/Shows</a>
               </li>
               <li>
-                <a href="./movies-shows">Movies/Shows</a>
+                <a href="./art.html">Art</a>
               </li>
               <li>
-              <li>
-                <a href="./music">Music</a>
+                <a href="./music.html">Music</a>
               </li>
             </ul>
           </div><!-- Grid column -->
@@ -214,10 +194,9 @@
             eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div><!-- Grid column -->
 
-        </div><!-- Grid row -->
-
-          <div class="footer-copyright text-center py-3">© 2020 Copyright
-
+          </div><!-- Grid row -->
+            <div class="footer-copyright text-center py-3">
+              © 2020 Copyright
           </div>
       </div>
     </footer>
