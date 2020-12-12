@@ -7,7 +7,7 @@
   border: white 2px solid;
   flex-grow: 1;
   align-items: center;
-  flex-basis: 33%;
+  flex-basis: 50%;
   position: relative;
   overflow: hidden;
 }
@@ -20,7 +20,7 @@
 
 @media all and (max-width: 600px) {
     .one-grid {
-      flex-basis: 50%;;
+      flex-basis: 100%;;
     }
 }
 
@@ -58,31 +58,6 @@ h3 {
 @media (max-width: 300px) {
   #description {
     font-size: 2.2vw;
-  }
-}
-
-#large-text {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.2vw;
-  color: black;
-  padding: 2vh 2vw 2vh 2vw;
-}
-
-@media (max-width: 600px) {
-  #large-text {
-    font-size: 4vw;
-  }
-}
-
-@media (max-width: 300px) {
-  #large-text {
-    font-size: 4vw;
-  }
-}
-
-@media (max-width: 600px) {
-  .large-text {
-    font-size: 3.5vw;
   }
 }
 

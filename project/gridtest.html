@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <title>Video Game Articles</title><!--Change the Title to whatever it's called-->
+    <title>Basic Structure For The Articles</title><!--Change the Title to whatever it's called-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/basic-structure.css">
     <link rel="stylesheet" href="css/slideshow.css">
-    <link rel="stylesheet" href="css/side-articles.css">
-    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/content-articles.css">
+    <link rel="stylesheet" href="css/3x3grid.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins&display=swap" rel="stylesheet">
     <!--Add any css files after this don't mess with anything above just the title name that way
@@ -20,18 +20,14 @@
 
 </head>
   <body>
-    <h1>Video Game Articles</h1>
+    <h1>Articles-Layouts</h1>
     <hr/>
     <ul class="topnav">
       <li><a class="active" href="./homepage.html">Home</a></li>
-      <li><a href="./videogames.html">Video Games</a></li>
-      <li><a href="./videogames-articles.html">Video Game Articles</a></li>
+      <li><a href="./videogames.html">Video Game</a></li>
       <li><a href="./art.html">Art</a></li>
-      <li><a href="./art-articles.html">Art Articles</a></li>
-      <li><a href="./movies-shows.html">Movies/Shows</a></li>
-      <li><a href="./movies-shows-articles.html">Movie/Show Articles</a></li>
+      <li><a href="./movies-shows.html">Movie & Show</a></li>
       <li><a href="./music.html">Music</a></li>
-      <li><a href="./music-articles.html">Music Articles</a></li>
       <li><a href="./aboutus.html">About Us</a></li>
     </ul><br>
 
@@ -48,49 +44,78 @@
     <div id="center-box"><!--Things with in the Center Box-->
       <div class="content-box">
         <div class="flex-column-left">
-          <div class="content-grid">
-            <figure class="content-image-container">
-              <img class="text" src="https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg">
-              <figcaption>content</figcaption>
-            </figure>
-            <figure class="content-image-container">
-              <img src="https://api.time.com/wp-content/uploads/2015/02/cats.jpg?quality=85&amp;w=1024&amp;h=512&amp;crop=1">
-              <figcaption>content</figcaption>
-            </figure>
-            <figure class="content-image-container">
-              <img src="https://i.insider.com/5e2ef209ab49fd373f6ba714?width=1136&amp;format=jpeg">
-              <figcaption>content</figcaption>
-            </figure>
-          </div><br>
+          <div class="grids">
+            <div class="one-grid">
+              <img src="https://yuzu-emu.org/images/game/boxart/the-legend-of-zelda-links-awakening.png">
+              <div class="text-info">
+                <h3 class="hidden-text">Recent Zelda Remaster</h3>
+                <p class="hidden-text">Write a short description</p>
+              </div>
+            </div>
 
-          <div class="content-grid">
-            <figure class="content-image-container">
-              <img class="text" src="https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg">
-              <figcaption>content</figcaption>
-            </figure>
-            <figure class="content-image-container">
-              <img src="https://api.time.com/wp-content/uploads/2015/02/cats.jpg?quality=85&amp;w=1024&amp;h=512&amp;crop=1">
-              <figcaption>content</figcaption>
-            </figure>
-            <figure class="content-image-container">
-              <img src="https://i.insider.com/5e2ef209ab49fd373f6ba714?width=1136&amp;format=jpeg">
-              <figcaption>content</figcaption>
-            </figure>
-          </div><br>
+            <div class="one-grid">
+              <img src="https://static.truetrophies.com/boxart/Game_9021.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Castle Crashers Art</h3>
+                <p class="hidden-text">Write a short description</p>
+              </div>
+            </div>
 
-          <div class="content-grid">
-            <figure class="content-image-container">
-              <img class="text" src="https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg">
-              <figcaption>content</figcaption>
-            </figure>
-            <figure class="content-image-container">
-              <img src="https://api.time.com/wp-content/uploads/2015/02/cats.jpg?quality=85&amp;w=1024&amp;h=512&amp;crop=1">
-              <figcaption>content</figcaption>
-            </figure>
-            <figure class="content-image-container">
-              <img src="https://i.insider.com/5e2ef209ab49fd373f6ba714?width=1136&amp;format=jpeg">
-              <figcaption>content</figcaption>
-            </figure>
+            <div class="one-grid">
+              <img src="https://pbs.twimg.com/profile_images/699781026021703680/VoLoirRr.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Fallout: New Vegas Cover</h3>
+                <p class="hidden-text">Write a short description</p>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="https://assets.amiibo.life/assets/games/eshop_icons/switch/the-elder-scrolls-v-skyrim-be0828f117cd2af550e5876e84e2d8f1f97aea9a236a775a448ae4844efc4c87.png">
+              <div class="text-info">
+                <h3 class="hidden-text">Skyrim</h3>
+                <p class="hidden-text">Write a short description</p>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="https://yuzu-emu.org/images/game/boxart/super-smash-bros-ultimate.png">
+              <div class="text-info">
+                <h3 class="hidden-text">Nintendo's Fighting Game</h3>
+                <p class="hidden-text">Write a short description</p>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="https://yuzu-emu.org/images/game/boxart/sonic-mania.png">
+              <div class="text-info">
+                <h3 class="hidden-text">Sonic Mania</h3>
+                <p class="hidden-text">Write a short description</p>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="https://i.pinimg.com/474x/8a/ed/22/8aed228a0082bc247fcc3c6f4adb2a46.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Halo 3: ODST</h3>
+                <figure id="description" class="hidden-text">Write a short description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="https://yuzu-emu.org/images/game/boxart/pokemon-shield.png">
+              <div class="text-info">
+                <h3 class="hidden-text">Newest Pokemon Game</h3>
+                <p class="hidden-text">Write a short description</p>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png">
+              <div class="text-info">
+                <h3 class="hidden-text">Cover of Minecraft</h3>
+                <p class="hidden-text" class="description">Write a short description.</p>
+              </div>
+            </div>
           </div><br>
         </div><!-- Flex Column Left End Div-->
 
@@ -154,11 +179,12 @@
                 <a href="./videogames.html">Video Games</a>
               </li>
               <li>
+                <a href="./art.html">Art</a>
+              </li>
+              <li>
                 <a href="./movies-shows.html">Movies/Shows</a>
               </li>
               <li>
-                <a href="./art.html">Art</a>
-              </li>
               <li>
                 <a href="./music.html">Music</a>
               </li>
@@ -188,10 +214,10 @@
           </div><!-- Grid column -->
 
           <div class="col-md">
-            <h5 class="text-uppercase">Footer</h5>
+            <h5 class="text-uppercase">From The Creators</h5>
             <hr class="color-change"/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p id="left">We hope you enjoy viewing our website and discover new great media to
+            learn more about to help pass the time during quarentine.</p>
           </div><!-- Grid column -->
 
           </div><!-- Grid row -->

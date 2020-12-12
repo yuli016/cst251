@@ -1,47 +1,178 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <title>Movies/Shows</title><!--Change the Title to whatever it's called-->
+    <title>Movies & Shows</title><!--Change the Title to whatever it's called-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/basic-structure.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/side-articles.css">
+    <link rel="stylesheet" href="css/3x3grid.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins&display=swap" rel="stylesheet">
-    <!--Add any css files after this don't mess with anything above just the title name-->
+    <!--Add any css files after this don't mess with anything above just the title name that way
+    if you mess up the problem is in your css file or something wrong within the div id center-box-->
 
 </head>
   <body>
-    <h1>Movies/Shows</h1>
+    <h1>Otter's Digest</h1>
     <hr/>
     <ul class="topnav">
       <li><a class="active" href="./homepage.html">Home</a></li>
-      <li><a href="./videogames.html">Video Games</a></li>
-      <li><a href="./videogames-articles.html">Video Game Articles</a></li>
+      <li><a href="./videogames.html">Video Game</a></li>
       <li><a href="./art.html">Art</a></li>
-      <li><a href="./art-articles.html">Art Articles</a></li>
-      <li><a href="./movies-shows.html">Movies/Shows</a></li>
-      <li><a href="./movies-shows-articles.html">Movie/Show Articles</a></li>
+      <li><a href="./movies-shows.html">Movie & Show</a></li>
       <li><a href="./music.html">Music</a></li>
-      <li><a href="./music-articles.html">Music Articles</a></li>
       <li><a href="./aboutus.html">About Us</a></li>
     </ul><br>
 
-    <div id="center-box"><!--Things with in the Center Box-->
-      <h2>Contents</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-      non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div id="slideshow">
+      <figure>
+        <img src="https://www.rspcapetinsurance.org.au/getattachment/2aaafb4f-5e51-4358-b122-2c6108721fb6/what-should-feed-cat.aspx">
+        <img src="https://dqix3oiq93d76.cloudfront.net/assets/product_images/zpc_og_article_recognizing-cats-normal.jpg">
+        <img src="https://static.scientificamerican.com/sciam/cache/file/F1E90F3D-1FFD-4BA9-9DFA98AE647FA7D4_source.jpg">
+        <img src="https://cdn.cnn.com/cnnnext/dam/assets/200713171600-02-silk-road-cats-super-tease.jpg">
+        <img src="https://www.rspcapetinsurance.org.au/getattachment/2aaafb4f-5e51-4358-b122-2c6108721fb6/what-should-feed-cat.aspx">
+      </figure>
+    </div><br>
 
+    <div id="center-box"><!--Things with in the Center Box-->
+      <div class="content-box">
+        <div class="flex-column-left">
+          <h2>Movies & Shows Recomendations</h2>
+          <p>Write a description</p>
+          <hr/>
+
+          <div class="grids">
+            <div class="one-grid">
+              <img src="img/cat3.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Title Name</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/cat5.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Title Name</h3>
+                <figure id="description" class="hidden-text">Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/cat3.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Title Name</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/cat3.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Title Name</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/cat3.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Title Name</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/cat3.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Title Name</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/cat3.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Title Name</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/cat3.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Title Name</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/cat2.jpg">
+              <div class="text-info">
+                <h3 class="large-text" class="hidden-text">Title Name</h3>
+                <figure id="large-text" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+          </div><br>
+        </div><hr/><!-- Flex Column Left End Div-->
+
+        <div class="flex-column-right">
+          <h2 class="center">Articles</h2>
+          <div class="column-articles">
+            <div class="card">
+              <div class="image-article-container">
+              <a href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release">
+                <img src="img/season2.jpg"></a><!--add the article image-->
+                 <div class="container">
+                   <a class="article-title" href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release">
+                     Cult-favorite cartoon Bee and Puppycat finds a home at Netflix for season 2</a><br><!--write article name-->
+                   <div class="article-author">By Petrana Radulovic @Pet_rana Oct 6, 2020, 2:00pm EDT</div><!--write the article author date and time-->
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column-articles">
+            <div class="card">
+              <div class="image-article-container">
+              <a href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release">
+                <img src="img/rage.jpg"></a><!--add the article image-->
+                 <div class="container">
+                   <a class="article-title" href="./aggretsuko.html">
+                    Aggretsuko</a><br><!--write article name-->
+                   <div class="article-author">By Vanessa Garcia December 11, 2020</div><!--write the article author date and time-->
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column-articles">
+            <div class="card">
+              <div class="image-article-container">
+              <a href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release">
+                <img src="img/season2.jpg"></a><!--add the article image-->
+                 <div class="container">
+                   <a class="article-title" href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release">
+                     Cult-favorite cartoon Bee and Puppycat finds a home at Netflix for season 2</a><br><!--write article name-->
+                   <div class="article-author">By Petrana Radulovic @Pet_rana Oct 6, 2020, 2:00pm EDT</div><!--write the article author date and time-->
+                  </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!--Flex Column Right End Div-->
+      </div><!--content-Box End Div-->
     </div><!--The Center Box End Div-->
 
     <!--Don't mess with footer-->
@@ -56,11 +187,12 @@
                 <a href="./videogames.html">Video Games</a>
               </li>
               <li>
+                <a href="./art.html">Art</a>
+              </li>
+              <li>
                 <a href="./movies-shows.html">Movies/Shows</a>
               </li>
               <li>
-                <a href="./art.html">Art</a>
-              </li>
               <li>
                 <a href="./music.html">Music</a>
               </li>
@@ -90,10 +222,10 @@
           </div><!-- Grid column -->
 
           <div class="col-md">
-            <h5 class="text-uppercase">Footer</h5>
+            <h5 class="text-uppercase">From The Creators</h5>
             <hr class="color-change"/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p id="left">We hope you enjoy viewing our website and discover new great media to
+            learn more about to help pass the time during quarentine.</p>
           </div><!-- Grid column -->
 
           </div><!-- Grid row -->

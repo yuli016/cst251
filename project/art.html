@@ -10,36 +10,167 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/basic-structure.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/side-articles.css">
+    <link rel="stylesheet" href="css/3x3grid.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins&display=swap" rel="stylesheet">
-    <!--Add any css files after this don't mess with anything above just the title name-->
+    <!--Add any css files after this don't mess with anything above just the title name that way
+    if you mess up the problem is in your css file or something wrong within the div id center-box-->
 
 </head>
   <body>
-    <h1>Art</h1>
+    <h1>Otter's Digest</h1>
     <hr/>
     <ul class="topnav">
       <li><a class="active" href="./homepage.html">Home</a></li>
-      <li><a href="./videogames.html">Video Games</a></li>
-      <li><a href="./videogames-articles.html">Video Game Articles</a></li>
+      <li><a href="./videogames.html">Video Game</a></li>
       <li><a href="./art.html">Art</a></li>
-      <li><a href="./art-articles.html">Art Articles</a></li>
-      <li><a href="./movies-shows.html">Movies/Shows</a></li>
-      <li><a href="./movies-shows-articles.html">Movie/Show Articles</a></li>
+      <li><a href="./movies-shows.html">Movie & Show</a></li>
       <li><a href="./music.html">Music</a></li>
-      <li><a href="./music-articles.html">Music Articles</a></li>
       <li><a href="./aboutus.html">About Us</a></li>
     </ul><br>
 
-    <div id="center-box"><!--Things with in the Center Box-->
-      <h2>Contents</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-      non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div id="slideshow">
+      <figure>
+        <img src="img/christinabanner.png"><!--Change Image This Image and the Last needs to be the same-->
+        <img src="img/tunjibanner.jpg"><!--Change Image-->
+        <img src="img/elseedbanner.webp"><!--Change Image-->
+        <img src="img/judybanner.jpg"><!--Change Image-->
+        <img src="img/christinabanner.png"><!--Change Image to be the same as the first one-->
+      </figure>
+    </div><br>
 
+    <div id="center-box"><!--Things with in the Center Box-->
+      <div class="content-box">
+        <div class="flex-column-left">
+          <h2>Art Recomendations</h2>
+          <p>Write a description</p>
+          <hr/>
+
+          <div class="grids">
+            <div class="one-grid">
+              <img src="img/gatscontent.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Gats: Oakland Icon</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/elseedcontent.png">
+              <div class="text-info">
+                <h3 class="hidden-text">French Tunisian Calligraphy El Seed</h3>
+                <figure id="description" class="hidden-text">Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/judycontent.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">American Feminist Artist: Judy Chicago</h3>
+                <figure id="description" class="hidden-text">Write description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/gustoncontent.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Guston's Work More Relevant Than Ever</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/christinacontent.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Themes Tackling: Racial & Sexual Identities Gender & Queerness</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/juddcontent.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Donald Judd: MOMA NY</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/sabercontent.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">LA Great SABER: New Releases</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/tunjicontent.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Colorful, Powerful, Exploring West African History with Tunji Adeniyi-Jones</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/gonzcontent.jpg">
+              <div class="text-info">
+                <h3 class="large-text" class="hidden-text">The Gonz: American Skateboarder and Artist</h3>
+                <figure id="large-text" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+          </div><br>
+        </div><!-- Flex Column Left End Div-->
+
+        <div class="flex-column-right">
+          <h2 class="center">Articles</h2>
+          <div class="column-articles">
+            <div class="card">
+              <div class="image-article-container">
+                <img src="img/bl3content.jpg">
+                 <div class="container">
+                   <a class="article-title" href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release"
+                      target="_Bee And Puppycat">Borderlands Iconic Art Direction</a><br><!--paste the article link again & write article name-->
+                   <div class="article-author">By Petrana Radulovic @Pet_rana Oct 6, 2020, 2:00pm EDT</div><!--write the article author date and time-->
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column-articles">
+            <div class="card">
+              <div class="image-article-container">
+                <img src="img/gatscontent.webp">
+                 <div class="container">
+                   <a class="article-title" href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release"
+                      target="_Bee And Puppycat">GATS: Oakland Icon</a><br><!--paste the article link again & write article name-->
+                   <div class="article-author">By Petrana Radulovic @Pet_rana Oct 6, 2020, 2:00pm EDT</div><!--write the article author date and time-->
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column-articles">
+            <div class="card">
+              <div class="image-article-container">
+              <a href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release"
+                 target="_Bee And Puppycat"> <img src="img/season2.jpg"></a><!--remove the link within the quotes and paste article link & add the article image-->
+                 <div class="container">
+                   <a class="article-title" href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release"
+                      target="_Bee And Puppycat">Cult-favorite cartoon Bee and Puppycat finds a home at Netflix for season 2</a><br><!--paste the article link again & write article name-->
+                   <div class="article-author">By Petrana Radulovic @Pet_rana Oct 6, 2020, 2:00pm EDT</div><!--write the article author date and time-->
+                  </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!--Flex Column Right End Div-->
+      </div><!--content-Box End Div-->
     </div><!--The Center Box End Div-->
 
     <!--Don't mess with footer-->
@@ -88,10 +219,10 @@
           </div><!-- Grid column -->
 
           <div class="col-md">
-            <h5 class="text-uppercase">Footer</h5>
+            <h5 class="text-uppercase">From The Creators</h5>
             <hr class="color-change"/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p id="left">We hope you enjoy viewing our website and discover new great media to
+            learn more about to help pass the time during quarentine.</p>
           </div><!-- Grid column -->
 
           </div><!-- Grid row -->

@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Example</title>
+    <title>Homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -15,22 +15,18 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/basic-structure.css">
     <link rel="stylesheet" href="css/homepage.css">
-    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/2x2grid.css">
     <link rel="stylesheet" href="css/side-articles.css">
   </head>
   <body>
-    <h1>Website Name</h1>
+    <h1>Otter's Digest</h1>
     <hr/>
     <ul class="topnav">
       <li><a class="active" href="./homepage.html">Home</a></li>
-      <li><a href="./videogames.html">Video Games</a></li>
-      <li><a href="./videogames-articles.html">Video Game Articles</a></li>
+      <li><a href="./videogames.html">Video Game</a></li>
       <li><a href="./art.html">Art</a></li>
-      <li><a href="./art-articles.html">Art Articles</a></li>
-      <li><a href="./movies-shows.html">Movies/Shows</a></li>
-      <li><a href="./movies-shows-articles.html">Movie/Show Articles</a></li>
+      <li><a href="./movies-shows.html">Movie & Show</a></li>
       <li><a href="./music.html">Music</a></li>
-      <li><a href="./music-articles.html">Music Articles</a></li>
       <li><a href="./aboutus.html">About Us</a></li>
     </ul><br>
 
@@ -48,69 +44,59 @@
       <div class="content-box">
         <div class="flex-column-left">
           <h2>Content</h2>
-          <p>I have completed the layouts for the homepage/other articles layout you will be using.
-          I made it easy for you to do your work since you are only writing and collecting images
-          and other things you are going to put for the other section but all the images for
-          the slidesshow, articles and in the grids should be horizontal and the same
-          in height it would be more easier for me.  You basically have to change the src
-          source by instering your image that you saved and put into the img folder.
-          For the articles you basically have to change the link to the website by copying and pasting in two
-          location so the image and title of the articles links opens a new tab.  For writing the article name
-          just delete the text and write it also for the author and date is was written in your section.<br><br>
+          <p id="margins">What's almost done:  Art & Videogames <br>
+          <li>Art & Games:  Just need you to write a description about the recommendation.  You'll know when you view your pages.  I added new things.</li>
+          <li>Art:  Fix size for the for one of the image slide, add a description about the page & Add some articles and send them to me</li>
+          <li>Game:  one more articles and send them to me so every page has three use the same format you used.</li>
+          </p>
 
-          Which color background you want for the articles yellow, grey, or white.
-          If grey is choosen then the text will be white.  Just to let you know if you
-          hover over the article image for grey and white it won't zoom in only for the
-          yellow background becasue I change the code but doesn't matter it's an easy fix
-          when you all agree on the color background it will have the same fuction.<br><br>
-
-          The things this homepage needs is articles and images of content for grid and slideshow.
-          Also on the footer write something short that's not too long.</p>
+          <p id="margins">What I need: Music, Shows, Homepage, and About us page <br>
+          <li>Music:  I need the three articles check the video game and one on the movie section to see how to do it.
+              Need images for recommendation.  4 Images for slides.  A description for the page.  </li>
+          <li>Shows:  Write two more acticles you the same format you used to make it easy for me.  Find images of Shows
+              to recommend view the art and videogame as reference and add a description about the show. Find 4 images for slideshow.</li>
+          <li>Homepage:  The paragraph writing for the homepage, images for slideshow, images for each content, writing, and articles.</li>
+          <li>About us:  The paragraph writing for the about the team, images, contact, and a short paragraph about yourself.</li>
+          </p>
           <hr/>
-          <div class="content-grid">
-            <figure class="content-image-container">
-              <img class="text" src="https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg">
-              <figcaption>content</figcaption>
-            </figure>
-            <figure class="content-image-container">
-              <img src="https://api.time.com/wp-content/uploads/2015/02/cats.jpg?quality=85&amp;w=1024&amp;h=512&amp;crop=1">
-              <figcaption>content</figcaption>
-            </figure>
-            <figure class="content-image-container">
-              <img src="https://i.insider.com/5e2ef209ab49fd373f6ba714?width=1136&amp;format=jpeg">
-              <figcaption>content</figcaption>
-            </figure>
-          </div><br>
+          <div class="grids">
+            <div class="one-grid">
+              <img src="img/cat.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Videogames</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
 
-          <div class="content-grid">
-            <figure class="content-image-container">
-              <img class="text" src="https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg">
-              <figcaption>content</figcaption>
-            </figure>
-            <figure class="content-image-container">
-              <img src="https://api.time.com/wp-content/uploads/2015/02/cats.jpg?quality=85&amp;w=1024&amp;h=512&amp;crop=1">
-              <figcaption>content</figcaption>
-            </figure>
-            <figure class="content-image-container">
-              <img src="https://i.insider.com/5e2ef209ab49fd373f6ba714?width=1136&amp;format=jpeg">
-              <figcaption>content</figcaption>
-            </figure>
-          </div><br>
+            <div class="one-grid">
+              <img src="img/cat3.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Art</h3>
+                <figure id="description" class="hidden-text">Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</figure>
+              </div>
+            </div>
 
-          <div class="content-grid">
-            <figure class="content-image-container">
-              <img class="text" src="https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg">
-              <figcaption>content</figcaption>
-            </figure>
-            <figure class="content-image-container">
-              <img src="https://api.time.com/wp-content/uploads/2015/02/cats.jpg?quality=85&amp;w=1024&amp;h=512&amp;crop=1">
-              <figcaption>content</figcaption>
-            </figure>
-            <figure class="content-image-container">
-              <img src="https://i.insider.com/5e2ef209ab49fd373f6ba714?width=1136&amp;format=jpeg">
-              <figcaption>content</figcaption>
-            </figure>
-          </div><br>
+            <div class="one-grid">
+              <img src="img/cat1.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Movies & Shows</h3>
+                <figure id="description" class="hidden-text">Write description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="img/cat.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Music</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+          </div>
+
         </div><!-- Flex Left End Div-->
 
         <div class="flex-column-right">
@@ -131,12 +117,12 @@
 
           <div class="column-articles">
             <div class="card">
-              <div class="grey" class="image-article-container">
+              <div class="image-article-container">
               <a href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release"
                  target="_Bee And Puppycat"> <img src="img/season2.jpg"></a>
                  <div class="container">
                    <a class="article-title" href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release"
-                    target="_Bee And Puppycat"><span>Cult-favorite cartoon Bee and Puppycat finds a home at Netflix for season 2</span></a><br>
+                      target="_Bee And Puppycat">Cult-favorite cartoon Bee and Puppycat finds a home at Netflix for season 2</a><br>
                    <div class="article-author">By Petrana Radulovic @Pet_rana Oct 6, 2020</div>
                   </div>
               </div>
@@ -145,7 +131,7 @@
 
           <div class="column-articles">
             <div class="card">
-              <div class="white" class="image-article-container">
+              <div class="image-article-container">
               <a href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release"
                  target="_Bee And Puppycat"> <img src="img/season2.jpg"></a>
                  <div class="container">
@@ -170,17 +156,17 @@
             <hr class="color-change"/>
             <ul class="list-unstyled">
               <li>
-                <a href="./videogames">Video Games</a>
+                <a href="./videogames.html">Video Games</a>
               </li>
               <li>
-                <a href="./art">Art</a>
+                <a href="./art.html">Art</a>
               </li>
               <li>
-                <a href="./movies-shows">Movies/Shows</a>
+                <a href="./movies-shows.html">Movies/Shows</a>
               </li>
               <li>
               <li>
-                <a href="./music">Music</a>
+                <a href="./music.html">Music</a>
               </li>
             </ul>
           </div><!-- Grid column -->
@@ -208,10 +194,10 @@
           </div><!-- Grid column -->
 
           <div class="col-md">
-            <h5 class="text-uppercase">Footer</h5>
+            <h5 class="text-uppercase">From The Creators</h5>
             <hr class="color-change"/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p id="left">We hope you enjoy viewing our website and discover new great media to
+            learn more about to help pass the time during quarentine.</p>
           </div><!-- Grid column -->
 
         </div><!-- Grid row -->

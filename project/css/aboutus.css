@@ -58,3 +58,7 @@ span {
   .column, .column-right {
     flex: 100%;
 }
+
+h3 {
+  font-size: 2vw;
+}

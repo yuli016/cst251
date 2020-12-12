@@ -5,6 +5,10 @@ footer {
   padding: 2vh 10vw 2vh 10vw;
 }
 
+#left {
+  text-align: left;
+}
+
 footer a {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;

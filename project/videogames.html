@@ -6,42 +6,173 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/basic-structure.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/side-articles.css">
+    <link rel="stylesheet" href="css/3x3grid.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins&display=swap" rel="stylesheet">
-    <!--Add any css files after this don't mess with anything above just the title name-->
+    <!--Add any css files after this don't mess with anything above just the title name that way
+    if you mess up the problem is in your css file or something wrong within the div id center-box-->
 
 </head>
   <body>
-    <h1>Video Games</h1>
+    <h1>Otter's Digest</h1>
     <hr/>
     <ul class="topnav">
       <li><a class="active" href="./homepage.html">Home</a></li>
-      <li><a href="./videogames.html">Video Games</a></li>
-      <li><a href="./videogames-articles.html">Video Game Articles</a></li>
+      <li><a href="./videogames.html">Video Game</a></li>
       <li><a href="./art.html">Art</a></li>
-      <li><a href="./art-articles.html">Art Articles</a></li>
-      <li><a href="./movies-shows.html">Movies/Shows</a></li>
-      <li><a href="./movies-shows-articles.html">Movie/Show Articles</a></li>
+      <li><a href="./movies-shows.html">Movie & Show</a></li>
       <li><a href="./music.html">Music</a></li>
-      <li><a href="./music-articles.html">Music Articles</a></li>
       <li><a href="./aboutus.html">About Us</a></li>
     </ul><br>
 
-    <div id="center-box"><!--Things with in the Center Box-->
-      <h2>Contents</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-      non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div id="slideshow">
+      <figure>
+        <img src="img/acnh-banner.jpg"><!--Change Image This Image and the Last needs to be the same-->
+        <img src="https://www.nintendo.com/content/dam/noa/en_US/games/switch/t/the-legend-of-zelda-breath-of-the-wild-switch/the-legend-of-zelda-breath-of-the-wild-switch-hero.jpg"><!--Change Image-->
+        <img src="https://media.gq.com/photos/5dd4101576df3a0008b04487/16:9/w_2560%2Cc_limit/SWSH_Art.png"><!--Change Image-->
+        <img src="https://a.espncdn.com/photo/2016/0112/r43486_1296x729_16-9.jpg"><!--Change Image-->
+        <img src="img/acnh-banner.jpg"><!--Change Image to be the same as the first one-->
+      </figure>
+    </div><br>
 
+    <div id="center-box"><!--Things with in the Center Box-->
+      <div class="content-box">
+        <div class="flex-column-left">
+          <h2>Video Games Recomendations</h2>
+          <p>Playing video games is a popular hobby amongst many, escpecially for
+          college students. Gaming has become more popular with the quarentining,
+          so here are some of our recomendations.</p>
+          <hr/>
+
+          <div class="grids">
+            <div class="one-grid">
+              <img src="https://yuzu-emu.org/images/game/boxart/the-legend-of-zelda-links-awakening.png">
+              <div class="text-info">
+                <h3 class="hidden-text">Recent Zelda Remaster</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="https://static.truetrophies.com/boxart/Game_9021.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Castle Crashers Art</h3>
+                <figure id="description" class="hidden-text">Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="https://pbs.twimg.com/profile_images/699781026021703680/VoLoirRr.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Fallout: New Vegas Cover</h3>
+                <figure id="description" class="hidden-text">Write description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="https://assets.amiibo.life/assets/games/eshop_icons/switch/the-elder-scrolls-v-skyrim-be0828f117cd2af550e5876e84e2d8f1f97aea9a236a775a448ae4844efc4c87.png">
+              <div class="text-info">
+                <h3 class="hidden-text">Skyrim</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="https://yuzu-emu.org/images/game/boxart/super-smash-bros-ultimate.png">
+              <div class="text-info">
+                <h3 class="hidden-text">Nintendo's Fighting Game</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="https://yuzu-emu.org/images/game/boxart/sonic-mania.png">
+              <div class="text-info">
+                <h3 class="hidden-text">Sonic Mania</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="https://i.pinimg.com/474x/8a/ed/22/8aed228a0082bc247fcc3c6f4adb2a46.jpg">
+              <div class="text-info">
+                <h3 class="hidden-text">Halo 3: ODST</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="https://yuzu-emu.org/images/game/boxart/pokemon-shield.png">
+              <div class="text-info">
+                <h3 class="hidden-text">Newest Pokemon Game</h3>
+                <figure id="description" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+
+            <div class="one-grid">
+              <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png">
+              <div class="text-info">
+                <h3 class="large-text" class="hidden-text">Cover of Minecraft</h3>
+                <figure id="large-text" class="hidden-text">Write a description</figure>
+              </div>
+            </div>
+          </div><br>
+        </div><hr/><!-- Flex Column Left End Div-->
+
+        <div class="flex-column-right">
+          <h2 class="center">Articles</h2>
+          <div class="column-articles">
+            <div class="card">
+              <div class="image-article-container">
+                <img src="img/animal.jpg">
+                 <div class="container">
+                   <a class="article-title" href="./animalcrossing.html">
+                    Animal Crossing: New Horizons</a><br><!--paste the article link again & write article name-->
+                   <div class="article-author">By Michael Owen December 11, 2020</div><!--write the article author date and time-->
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column-articles">
+            <div class="card">
+              <div class="image-article-container">
+                <img src="img/trophy.jpg">
+                <div class="container">
+                  <a class="article-title" href="./counterstrike.html">
+                  Astralis: The Competitive Counter-Strike:Global Offensive Giant</a><br><!--paste the article link again & write article name-->
+                   <div class="article-author">By Nick Rodarte December 11, 2020</div><!--write the article author date and time-->
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column-articles">
+            <div class="card">
+              <div class="image-article-container">
+              <a href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release"
+                 target="_Bee And Puppycat"> <img src="img/season2.jpg"></a><!--remove the link within the quotes and paste article link & add the article image-->
+                 <div class="container">
+                   <a class="article-title" href="https://www.polygon.com/animation-cartoons/2020/10/6/21504068/bee-and-puppycat-season-2-netflix-release"
+                      target="_Bee And Puppycat">Cult-favorite cartoon Bee and Puppycat finds a home at Netflix for season 2</a><br><!--paste the article link again & write article name-->
+                   <div class="article-author">By Petrana Radulovic @Pet_rana Oct 6, 2020, 2:00pm EDT</div><!--write the article author date and time-->
+                  </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!--Flex Column Right End Div-->
+      </div><!--content-Box End Div-->
     </div><!--The Center Box End Div-->
 
     <!--Don't mess with footer-->
@@ -90,10 +221,10 @@
           </div><!-- Grid column -->
 
           <div class="col-md">
-            <h5 class="text-uppercase">Footer</h5>
+            <h5 class="text-uppercase">From The Creators</h5>
             <hr class="color-change"/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p id="left">We hope you enjoy viewing our website and discover new great media to
+            learn more about to help pass the time during quarentine.</p>
           </div><!-- Grid column -->
 
           </div><!-- Grid row -->

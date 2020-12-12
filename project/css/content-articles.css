@@ -31,11 +31,11 @@ box-sizing: border-box;
   -o-transition: 1s ease-out;
   -ms-transition: 1s ease-out;
   transition: 1s ease-out;
-  -webkit-transform:scale(1.12); /* Safari and Chrome */
-  -moz-transform:scale(1.12); /* Firefox */
-  -ms-transform:scale(1.12); /* IE 9 */
-  -o-transform:scale(1.12); /* Opera */
-  transform:scale(1.12);
+  -webkit-transform:scale(1.15); /* Safari and Chrome */
+  -moz-transform:scale(1.15); /* Firefox */
+  -ms-transform:scale(1.15); /* IE 9 */
+  -o-transform:scale(1.15); /* Opera */
+  transform:scale(1.15);
 }
 
 .image-article-container {
