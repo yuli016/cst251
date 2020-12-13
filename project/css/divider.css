@@ -1,0 +1,39 @@
+.img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-container {
+  width: 50%;
+  height: auto;
+}
+
+#format {
+  padding: 2vh 2vw 2vh 2vw;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.side-by-side-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.image1 {
+  flex: 50%;
+  padding: 10px;
+}
+
+.image2 {
+  flex: 50%;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .side-by-side-container {
+    flex-direction: column;
+  }
+}
