@@ -3,6 +3,11 @@
   height: auto;
 }
 
+.img-container iframe {
+  max-width: 100%;
+  height: auto;
+}
+
 .img-container {
   width: 100%;
   height: auto;
@@ -12,6 +17,10 @@
   padding: 2vh 2vw 2vh 2vw;
 }
 
+#reduce img {
+  width: 50%;
+  height: 50%;
+}
 
 * {
   box-sizing: border-box;
@@ -36,4 +45,13 @@
   .side-by-side-container {
     flex-direction: column;
   }
+}
+
+#imgbox {
+  display: inline-block;
+}
+
+#imgbox img{
+  height: auto;
+  max-width: 25%;
 }

@@ -1,0 +1,57 @@
+body {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f2f2f2;
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins&display=swap');
+}
+
+
+/*Slideshow*/
+#slideshow {
+  overflow-x: hidden;
+}
+
+#slideshow figure {
+  position: relative;
+  width: 600%;
+  margin: 0;
+  left: 0;
+  animation: 25s slideshow infinite;
+}
+
+#slideshow figure img {
+  float: left;
+  width: 16.67%;
+}
+
+@keyframes slideshow {
+  0% {
+      left: 0;
+  }
+  16.67% {
+      left: 0;
+  }
+  21.67% {
+      left: -100%;
+  }
+  41.67% {
+      left: -100%;
+  }
+  46.67% {
+      left: -200%;
+  }
+  66.67% {
+      left: -200%;
+  }
+  75% {
+      left: -300%;
+  }
+  95% {
+      left: -300%;
+  }
+  100% {
+      left: -400%;
+  }
+}
