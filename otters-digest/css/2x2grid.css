@@ -28,7 +28,7 @@ h3 {
   text-align: center;
   font-family: 'Playfair Display', serif;
   color: #8d3f3f;
-  font-size: 1.8vw;
+  font-size: 2vw;
   padding: 0vh 1vw 0vh 1vw;
 }
 
@@ -40,7 +40,7 @@ h3 {
 
 #description {
   font-family: 'Poppins', sans-serif;
-  font-size: 2vw;
+  font-size: 1.6vw;
   color: black;
   padding: 2vh 2vw 2vh 2vw;
 }
