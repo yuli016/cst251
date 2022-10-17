@@ -1,0 +1,75 @@
+main {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  width: 120px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+li{
+  text-align: left;
+}
+
+body {
+background-image: url(https://cdn.wallpapersafari.com/68/19/Kt6YDP.jpg);
+background-color: orangered;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: auto;
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+color: white;
+text-align: center;
+}
+
+h1 {
+	font-family: papyrus;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	background-color: darkred;
+	border-style: inherit;
+	border-radius: 5px;
+	padding: 20px;
+	padding-top: 40px;
+}
+
+h3 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: white;
+	text-align: center;
+}
+
+a:hover {
+	color: darkolivegreen;
+	text-align: center;
+	font-size: 15px;
+}
+
+#jae:hover {
+	color: lightpink;
+	text-align: center;
+	font-size: 15px;
+}
+
+.responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  	body {
+      background-color: pink;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	body {
+    background-color: lightblue;
+    }
+}
